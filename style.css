@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: "Iosevka Term", monospace;
+}
+
+.calc{
+    margin-top: 36px;
+    border-style: solid;
+    font-size: 36px;
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 10px;
+    margin: 10px;
+}
+
+button{
+    font-size: 36px;
+    padding: 10px;
+    font-family: "Iosevka Aile", sans-serif;
+}
+
+#display{
+    text-align: right;
+    border-style: solid;
+    margin: 10px;
+    padding: 5%;
+}
+
+#plus{
+    grid-area: 3/4/5/4;
+}
