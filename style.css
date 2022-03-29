@@ -1,13 +1,20 @@
 body{
     display: flex;
     justify-content: center;
-    font-family: "Iosevka Term", monospace;
+    font-family: "Helvetica", sans-serif ;
+    background-color: antiquewhite;
 }
 
 .calc{
+    width: 500px;
     margin-top: 36px;
     border-style: solid;
     font-size: 36px;
+    display: block;
+    background-color: silver;
+    border-radius: 5px;
+    border-width: thin;
+    border-color: silver;
 }
 
 #keys{
@@ -20,14 +27,18 @@ body{
 button{
     font-size: 36px;
     padding: 10px;
-    font-family: "Iosevka Aile", sans-serif;
 }
 
 #display{
     text-align: right;
-    border-style: solid;
     margin: 10px;
     padding: 5%;
+    overflow: clip;
+    border-color: darkgray;
+    border-style: solid ;
+    border-radius: 5px;
+    border-width: thin;
+    background-color: white;
 }
 
 #plus{
