@@ -1,3 +1,3 @@
 # calculator
 
-basic calculator practice
+basic calculator as practice
